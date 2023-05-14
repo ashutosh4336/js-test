@@ -1,0 +1,20 @@
+{
+  "name": "posts-mock-diving-deep",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest --run --reporter verbose --global --environment happy-dom",
+    "test:watch": "vitest",
+    "start": "http-server -c-1",
+    "coverage": "vitest run --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "happy-dom": "^9.18.3",
+    "http-server": "^14.1.1",
+    "vitest": "^0.9.4"
+  }
+}

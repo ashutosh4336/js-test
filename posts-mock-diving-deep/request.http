@@ -1,0 +1,7 @@
+### POST 
+POST https://jsonplaceholder.typicode.com/posts HTTP/1.1
+Content-Type: "application/json"
+
+{
+    "userId": 1, "title": "A generic title", "body": "A mediocore Body"
+}

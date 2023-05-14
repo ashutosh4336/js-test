@@ -1,0 +1,20 @@
+{
+  "name": "mock-spies",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "vitest --run --reporter verbose --global",
+    "test:watch": "vitest",
+    "start": "http-server -c-1",
+    "coverage": "vitest run --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^14.1.1",
+    "vitest": "^0.9.4"
+  }
+}
